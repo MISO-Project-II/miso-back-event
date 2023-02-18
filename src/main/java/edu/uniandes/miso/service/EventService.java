@@ -103,6 +103,7 @@ public class EventService {
 		event.setCity(input.getCity());
 		event.setIdSport(input.getIdSport());
 		event.setIdUserCreator(input.getIdUserCreator());
+		event.setContract(input.getEvenType());
 		responseService.setSuccess(true);
 	}
 	private Optional<Event> getEvent(Long idEvent) {
