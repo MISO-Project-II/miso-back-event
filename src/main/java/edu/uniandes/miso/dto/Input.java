@@ -1,5 +1,6 @@
 package edu.uniandes.miso.dto;
 
+import edu.uniandes.miso.entity.EvenType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -15,4 +16,5 @@ public class Input {
     private String city;
     private Long idSport;
     private Long idUserCreator;
+    private EvenType evenType;
 }
