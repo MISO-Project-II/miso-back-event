@@ -17,4 +17,5 @@ public class Input {
     private Long idSport;
     private Long idUserCreator;
     private EvenType evenType;
+    private String contractType;
 }
