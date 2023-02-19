@@ -30,5 +30,6 @@ public class Event {
     private Long idSport;
     private Long idUserCreator;
     @Enumerated(value = EnumType.STRING)
-    private EvenType contract;
+    private EvenType evenType;
+    private String contractType;
 }

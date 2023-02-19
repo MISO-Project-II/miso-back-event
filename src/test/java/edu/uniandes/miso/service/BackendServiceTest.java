@@ -36,7 +36,7 @@ class BackendServiceTest {
     @BeforeEach
     void setUp() {
         event = factory.manufacturePojo(Event.class);
-        event.setContract(EvenType.INSIDE_OF_HOUSE);
+        event.setEvenType(EvenType.INSIDE_OF_HOUSE);
     }
     @Test
     void getListById() {
