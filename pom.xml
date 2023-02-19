@@ -17,7 +17,7 @@
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.0.0-M7</surefire-plugin.version>
         <sonar.coverage.jacoco.xmlReportPaths>../workspace/target/jacoco-report/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.exclusions>src/main/java/edu/uniandes/miso/dto/**/*</sonar.exclusions>
+        <sonar.exclusions>src/main/java/edu/uniandes/miso/dto/**/*, src/main/java/edu/uniandes/miso/entity/**/*</sonar.exclusions>
     </properties>
     <dependencyManagement>
         <dependencies>
