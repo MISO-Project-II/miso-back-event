@@ -25,7 +25,7 @@ public class Event {
     private String name;
     @Temporal(TemporalType.DATE)
     private Date date;
-    private String description;;
+    private String description;
     private String city;
     private Long idSport;
     private Long idUserCreator;
