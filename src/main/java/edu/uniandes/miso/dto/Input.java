@@ -16,6 +16,6 @@ public class Input {
     private String city;
     private Long idSport;
     private Long idUserCreator;
-    private EvenType evenType;
+    private String evenType;
     private String contractType;
 }
