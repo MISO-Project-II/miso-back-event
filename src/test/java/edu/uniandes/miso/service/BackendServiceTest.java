@@ -2,7 +2,6 @@ package edu.uniandes.miso.service;
 
 import edu.uniandes.miso.dto.Input;
 import edu.uniandes.miso.dto.ResponseService;
-import edu.uniandes.miso.entity.EvenType;
 import edu.uniandes.miso.entity.Event;
 import edu.uniandes.miso.repository.EventRepository;
 import io.quarkus.test.junit.QuarkusTest;
@@ -36,7 +35,7 @@ class BackendServiceTest {
     @BeforeEach
     void setUp() {
         event = factory.manufacturePojo(Event.class);
-        event.setEvenType(EvenType.INSIDE_OF_HOUSE);
+        event.setEvenType("EvenType.INSIDE_OF_HOUSE");
     }
     @Test
     void getListById() {
