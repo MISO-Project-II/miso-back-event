@@ -9,6 +9,7 @@ import org.jboss.logging.Logger;
 
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
@@ -75,7 +76,7 @@ public class EventService {
 		return Response.status(Response.Status.BAD_REQUEST).entity(responseService).build();
 	}
 
-	@GET
+	@DELETE
 	@Path("{id}")
 	public Response delete(@PathParam("id") Long idEvent) {
 		Optional<Event> event = getEvent(idEvent);
